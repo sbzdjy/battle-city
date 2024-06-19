@@ -1,0 +1,26 @@
+{
+  "crop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "done": {
+    "variables": {
+      "GameOver": {
+        "op": "equal",
+        "reference": 2819
+      },
+      "Lives": {
+        "op": "equal"
+      }
+    }
+  },
+  "reward": {
+    "variables": {
+      "Score": {
+        "reward": 0.01
+      }
+    }
+  }
+}
